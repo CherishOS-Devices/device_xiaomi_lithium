@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/lithium/device.mk)
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-CHERISH_BUILD_TYPE :=OFFICIAL
+#CHERISH_BUILD_TYPE :=OFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := cherish_lithium
